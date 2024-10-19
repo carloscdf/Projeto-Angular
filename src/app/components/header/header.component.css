@@ -1,0 +1,45 @@
+/*Header*/
+header .container-header {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
+	margin: 20px;
+}
+
+header .logo-header {
+	width: 230px;
+}
+
+header nav a ,.b {
+	color: #8192a4;
+	text-decoration: none;
+	font-weight: 500;
+	margin-left: 5px;
+	transition: 0.1s;
+}
+
+.b:hover {
+	color: #1a48c4;
+}
+
+.logo {
+	color: #3d3e44;
+	cursor: pointer;
+}
+
+.fus {
+	color: #1a48c4;
+ }
+
+ .fa-github {
+	font-size: 20px;
+	padding-left:20px;
+}
+
+ @media screen and (max-width:700px){
+    header .container-header {
+        display: flex;
+        flex-direction: column;
+    }
+}

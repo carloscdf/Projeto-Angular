@@ -1,0 +1,19 @@
+<div class="roll">
+    <div class="container">
+        <h2 class="cover-title">Álbuns</h2>
+    </div>
+    
+<div class="albumCovers">
+  <div *ngFor="let album of albunsList" class="item">
+    <div class="cover-box">
+      <img class="cover" [src]="album.cover" alt="{{album.title}}" />
+      <div class="ct-box">
+        <h4 class="ct">{{ album.title }}</h4>
+        <h4 class="ca">{{ album.artist }}</h4>
+        <p class="cd">{{ album.year }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
