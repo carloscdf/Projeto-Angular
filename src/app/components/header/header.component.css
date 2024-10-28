@@ -23,7 +23,11 @@ header nav a ,.b {
 	color: #1a48c4;
 }
 
+
 .logo {
+	font-size: 30px;
+	font-weight: 600;
+	text-decoration: none;
 	color: #3d3e44;
 	cursor: pointer;
 }
