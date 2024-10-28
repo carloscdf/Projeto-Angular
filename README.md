@@ -1,6 +1,7 @@
 # SONNER
 
-Protótipo de tela de uma plataforma de streaming de músicas simples
+Protótipo de tela de uma plataforma de streaming de músicas simples. Projeto feito para um exercíco 
+da RESTIC36
 
 ### Como executar
 
