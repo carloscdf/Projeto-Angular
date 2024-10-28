@@ -5,11 +5,15 @@
 }
 
 /*COVERS*/
+.item{
+	text-decoration: none;
+}
+
 .albumCovers{
 	justify-items: center;
 	justify-content: center;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, 200px);
+	grid-template-columns: repeat(auto-fit, 220px);
 	gap: 20px;
 }
 
@@ -29,7 +33,7 @@
 }
 
 .cover-box {
-	width: 200px;
+	width: 220px;
 	background: rgba(219, 225, 232, .40);
 	padding: 10px 10px 40px 10px;
 	border-radius: 10px;

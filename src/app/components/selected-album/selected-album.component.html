@@ -1,0 +1,18 @@
+
+    <div class="movie" style="background: linear-gradient(rgba(219, 225, 232, .40), rgba(219, 225, 232, .40)100%), url('{{selectedAlbum?.banner}}');">
+        <div class="container">
+            <h3 class="title-movie">{{selectedAlbum?.title}}</h3>
+            <div class="artist-container">
+                <img class="artist-prof" [src]="selectedAlbum?.cover" [alt]="selectedAlbum?.title"/>
+                <p class="artist">{{selectedAlbum?.artist}}<i class="fas fus fa-certificate"></i></p>
+            </div>
+            <div class="buttons">
+                <button role="button" class="bot">
+                    <i class="fas fa-play"></i>
+                </button><button role="button" class="bot2">
+                    <i class="fas fa-info"></i>
+                </button>
+            </div>
+        </div>
+
+    </div>

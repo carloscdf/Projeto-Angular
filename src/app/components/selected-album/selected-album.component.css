@@ -1,10 +1,9 @@
-/*Top Banner*/
+/*Selected album*/
 .movie {
 	font-size: 20px;
-	background: linear-gradient(rgba(219, 225, 232, .40), rgba(219, 225, 232, .40)100%), url('https://www.rollingstone.com/wp-content/uploads/2024/07/BestAlbumCover_NEW.jpg');
-	background-attachment: fixed;
+	background-attachment: fixed !important;
 	height: 400px;
-	background-size:cover;
+	background-size: cover !important;
 	margin-top: 20px;
 	display: flex;
 	flex-direction:column;
@@ -87,8 +86,14 @@
 
 @media screen and (max-width:700px){
 
+	.title-movie {
+		font-size: 45px;
+		margin-top: 180px;
+	}
+
     .movie {
         width: 100%;
+		background-size: cover !important;
     }
 
     .title-movie {

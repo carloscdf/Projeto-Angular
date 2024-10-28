@@ -4,7 +4,7 @@
     </div>
     
 <div class="albumCovers">
-  <div *ngFor="let album of albunsList" class="item">
+  <a *ngFor="let album of albunsList" class="item" [href]="['/album/'+album.id]">
     <div class="cover-box">
       <img class="cover" [src]="album.cover" alt="{{album.title}}" />
       <div class="ct-box">
@@ -13,7 +13,7 @@
         <p class="cd">{{ album.year }}</p>
       </div>
     </div>
-  </div>
+  </a>
 </div>
 
 </div>

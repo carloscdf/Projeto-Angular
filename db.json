@@ -6,70 +6,80 @@
             "title": "Nonante-Cinq",
             "artist": "Angèle",
             "year": 2021,
-            "cover": "assets/img/min1.jpg"
+            "cover": "assets/img/min1.jpg",
+            "banner": "assets/banner/01.jpg"
           },
           {
             "id": 2,
             "title": "Norman Fucking Rockwell!",
             "artist": "Lana Del Rey",
             "year": 2019,
-            "cover": "assets/img/min2.jpg"
+            "cover": "assets/img/min2.jpg",
+            "banner": "assets/banner/02.png"
           },
           {
             "id": 3,
             "title": "Voulez-Vous",
             "artist": "ABBA",
             "year": 1979,
-            "cover": "assets/img/min3.jpg"
+            "cover": "assets/img/min3.jpg",
+            "banner": "assets/banner/03.jpg"
           },
           {
             "id": 4,
             "title": "30",
             "artist": "Adele",
             "year": 2021,
-            "cover": "assets/img/min4.jpg"
+            "cover": "assets/img/min4.jpg",
+            "banner": "assets/banner/04.jpg"
           },
           {
             "id": 5,
             "title": "Lemonade",
             "artist": "Beyoncé",
             "year": 2016,
-            "cover": "assets/img/min5.jpg"
+            "cover": "assets/img/min5.jpg",
+            "banner": "assets/banner/05.jpg"
           },
           {
             "id": 6,
             "title": "Chemtrails over the Country Club",
             "artist": "Lana Del Rey",
             "year": 2021,
-            "cover": "assets/img/min6.png"
+            "cover": "assets/img/min6.png",
+            "banner": "assets/banner/06.jpg"
           },
           {
             "id": 7,
             "title": "Fine Line",
             "artist": "Harry Styles",
             "year": 2019,
-            "cover": "assets/img/min7.jpg"
+            "cover": "assets/img/min7.jpg",
+            "banner": "assets/banner/07.jpeg"
           },
           {
             "id": 8,
             "title": "MONTERO",
             "artist": "Lil Nas X",
             "year": 2021,
-            "cover": "assets/img/min8.jpg"
+            "cover": "assets/img/min8.jpg",
+            "banner": "assets/banner/08.jpg"
           },
           {
             "id": 9,
             "title": "After Hours",
             "artist": "The Weeknd",
             "year": 2020,
-            "cover": "assets/img/min9.jpg"
+            "cover": "assets/img/min9.jpg",
+            "banner": "assets/banner/09.jpg"
           },
           {
             "id": 10,
             "title": "Lust for Life",
             "artist": "Lana Del Rey",
             "year": 2017,
-            "cover": "assets/img/min10.jpg"
+            "cover": "assets/img/min10.jpg",
+            "banner": "assets/banner/10.png"
           }
     ]
   }

@@ -12,4 +12,9 @@ export class AlbunsService {
     const data = await fetch(this.url); //faz uma requisição fetch para a url especificada
     return data.json(); //retorna os dados no formato json
   }
+
+  async getAlbumById(id: number):Promise<Album | undefined>{
+    const data = await fetch(`${this.url}/${id}`);
+    return data.json();
+  }
 }

@@ -4,5 +4,6 @@ export interface Album { //Interfaçe para os formatação dos dados dos albuns
     artist:string;
     year:number;
     cover:string;
+    banner:string;
   }
   
