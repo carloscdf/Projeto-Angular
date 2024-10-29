@@ -1,13 +1,17 @@
 # SONNER
 
-Protótipo de tela de uma plataforma de streaming de músicas simples. Projeto feito para um exercíco 
-da RESTIC36
+Protótipo de uma plataforma de streaming de músicas simples. Projeto feito para um exercíco 
+da [RESTIC36](https://www.restic36.cepedi.org.br/).
 
 ### Como executar
 
-Primeiro: Importe o código ao Angular e execute o `ng serve` para inciar o servidor do angular.
+Primeiro: Clone o repositório do projeto utlizando o `git clone <repositorio>`.
 
-Segundo: Inicie o json-server no arquivo db.json, deve ser iniciado através do comando `npm run server`. O endpoint está configurado como `http://localhost:3000/albums`.
+Segundo: Baixe os módulos do Node na pasta raiz do projeto utilizando `nmp install`.
+
+Terceiro: execute o `ng serve` para inciar o servidor do angular.
+
+Quarto: Inicie o json-server no arquivo db.json, deve ser iniciado através do comando `npm run server`. O endpoint está configurado como `http://localhost:3000/albums`.
 
 ### Tecnologias utilizadas
 Angular, CSS, Typescript, Json-server, Json.
